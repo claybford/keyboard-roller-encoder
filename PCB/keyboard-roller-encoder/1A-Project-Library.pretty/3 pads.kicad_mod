@@ -1,0 +1,18 @@
+(footprint "3 pads" (version 20221018) (generator pcbnew)
+  (layer "F.Cu")
+  (attr smd)
+  (fp_text reference "REF**" (at 7.51 -10.25 unlocked) (layer "F.SilkS") hide
+      (effects (font (size 1 1) (thickness 0.1)))
+    (tstamp 16941715-148b-4842-88a4-92d7bbf4c21f)
+  )
+  (fp_text value "3 pads" (at 7.51 -8.75 unlocked) (layer "F.Fab") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 898c8c6e-ee27-454b-aadd-16a4251e5d9e)
+  )
+  (pad "A" smd rect (at -1.8 0) (size 1.2 1.2) (layers "F.Cu" "F.Paste" "F.Mask")
+    (thermal_bridge_angle 45) (tstamp 8af68ad1-b70f-46b0-9909-da6987582a1b))
+  (pad "B" smd rect (at 1.8 0) (size 1.2 1.2) (layers "F.Cu" "F.Paste" "F.Mask")
+    (thermal_bridge_angle 45) (tstamp b7b1f803-ac2a-4d24-a0d0-f2bf08e6bd67))
+  (pad "C" smd rect (at 0 0) (size 1.2 1.2) (layers "F.Cu" "F.Paste" "F.Mask")
+    (thermal_bridge_angle 45) (tstamp 7afd7d34-9fe8-47ad-b522-48ab2997a140))
+)
